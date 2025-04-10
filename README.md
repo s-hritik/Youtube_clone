@@ -1,49 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>YouTube Clone</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #cc0000;
-    }
-    code {
-      background-color: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background-color: #eee;
-      padding: 1rem;
-      overflow-x: auto;
-      border-radius: 6px;
-    }
-    a {
-      color: #cc0000;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    hr {
-      margin: 2rem 0;
-    }
-    ul {
-      line-height: 1.6;
-    }
-  </style>
-</head>
-<body>
 
-  <h1>🎥 YouTube Clone (Frontend)</h1>
+  <h1> YouTube Clone </h1>
   <p>This is a fully functional <strong>YouTube Clone</strong> built using <strong>React</strong> and the <strong>YouTube Data API v3</strong>. It replicates the core features of YouTube such as video search, viewing, channel details, and recommendations—all on a modern React frontend.</p>
 
   <hr />
