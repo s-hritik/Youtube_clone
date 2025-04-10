@@ -1,12 +1,95 @@
-# React + Vite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #cc0000;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background-color: #eee;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    a {
+      color: #cc0000;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      margin: 2rem 0;
+    }
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h1>🎥 YouTube Clone (Frontend)</h1>
+  <p>This is a fully functional <strong>YouTube Clone</strong> built using <strong>React</strong> and the <strong>YouTube Data API v3</strong>. It replicates the core features of YouTube such as video search, viewing, channel details, and recommendations—all on a modern React frontend.</p>
 
-Currently, two official plugins are available:
+  <hr />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>🚀 Features</h2>
+  <ul>
+    <li>📺 Watch videos with embedded YouTube player</li>
+    <li>🧑‍💼 View channel information</li>
+    <li>🧠 See related videos and recommendations</li>
+    <li>⚡ Responsive UI using modern React practices</li>
+    <li>🔐 API integration using environment variables</li>
+  </ul>
 
-## Expanding the ESLint configuration
+  <h2>🛠️ Tech Stack</h2>
+  <ul>
+    <li>⚛️ React (with Hooks)</li>
+    <li>💨 CSS </li>
+    <li>🌐 YouTube Data API v3</li>
+    <li>📁 Vite (for fast bundling and dev environment)</li>
+  </ul>
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <h2>📦 Getting Started</h2>
+  <h4>1. Clone the Repository</h4>
+  <pre><code>git clone https://github.com/hritik-singh/youtube-clone.git
+cd youtube-clone</code></pre>
+
+  <h4>2. Install Dependencies</h4>
+  <pre><code>npm install</code></pre>
+
+  <h4>3. Create a <code>.env</code> File</h4>
+  <p>In the root directory of your project, create a <code>.env</code> file and add your API key:</p>
+  <pre><code>VITE_API_KEY=your_youtube_api_key_here</code></pre>
+
+  <h4>4. Run the App</h4>
+  <pre><code>npm run dev</code></pre>
+
+  <h2>🌍 Live Demo</h2>
+  <p><a href="https://your-deployment-link.com" target="_blank">🚀 Click here to view the live site</a></p>
+
+  <h2>🤝 Acknowledgements</h2>
+  <ul>
+    <li><a href="https://developers.google.com/youtube/v3" target="_blank">YouTube Data API v3</a></li>
+    <li><a href="https://reactjs.org/" target="_blank">React</a></li>
+    <li><a href="https://vitejs.dev/" target="_blank">Vite</a></li>
+  </ul>
+
+</body>
+</html>
+
