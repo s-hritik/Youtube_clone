@@ -37,7 +37,7 @@ cd youtube-clone</code></pre>
   <pre><code>npm run dev</code></pre>
 
   <h2>🌍 Live Demo</h2>
-  <p><a href="youtube-clone-s.vercel.app" target="_blank">🚀 Click here to view the live site</a></p>
+  <p><a href="https://youtube-clone-s.vercel.app" target="_blank">🚀 Click here to view the live site</a></p>
 
   <h2>🤝 Acknowledgements</h2>
   <ul>
